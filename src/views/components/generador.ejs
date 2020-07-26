@@ -1,0 +1,111 @@
+<div class="container">
+  <div class="row py-5">
+    <!-- form -->
+    <form class="col-md-6 mx-auto" action="/generador" method="POST">
+      <div class="row">
+        <!-- first name -->
+        <div class="form-group col-md-6">
+          <label class="text-primary">Primer Nombre</label>
+          <input type="text" name="fname" class="form-control" />
+        </div>
+        <!-- middle name -->
+        <div class="form-group col-md-6">
+          <label class="text-primary">Segundo Nombre</label>
+          <input type="text" name="mname" class="form-control" />
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- surname -->
+        <div class="form-group col-md-6">
+          <label class="text-primary">Primer Apellido</label>
+          <input type="text" name="surname" class="form-control" />
+        </div>
+        <!-- second surname -->
+        <div class="form-group col-md-6">
+          <label class="text-primary">Segundo Apellido</label>
+          <input type="text" name="ssurname" class="form-control" />
+        </div>
+      </div>
+
+      <!-- Gender -->
+      <label class="text-primary mb-1">
+        Género
+      </label>
+      <div class="d-flex mb-3">
+        <div class="custom-control custom-radio mr-4 mt-1">
+          <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="H"
+            class="custom-control-input"
+          />
+          <label class="custom-control-label" for="male">Hombre</label>
+        </div>
+        <div class="custom-control custom-radio mr-4 mt-1">
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="M"
+            class="custom-control-input"
+          />
+          <label class="custom-control-label" for="female">Mujer</label>
+        </div>
+      </div>
+
+      <!-- birth day -->
+      <div class="form-group">
+        <label class="text-primary">Fecha de Nacimiento</label>
+        <input type="date" name="date" class="form-control" />
+      </div>
+
+      <!-- states list -->
+      <div class="form-group">
+        <label class="text-primary">Entidad Federativa</label>
+        <select name="state" class="form-control">
+          <option disabled selected>Seleccione una opción</option>
+          <option value="AS">AGUASCALIENTES</option>
+          <option value="BC">BAJA CALIFORNIA</option>
+          <option value="BS">BAJA CALIFORNIA SUR</option>
+          <option value="CC">CAMPECHE</option>
+          <option value="CL">COAHUILA DE ZARAGOZA</option>
+          <option value="CM">COLIMA</option>
+          <option value="CS">CHIAPAS</option>
+          <option value="CH">CHIHUAHUA</option>
+          <option value="DF">DISTRITO FEDERAL</option>
+          <option value="DG">DURANGO</option>
+          <option value="GT">GUANAJUATO</option>
+          <option value="GR">GUERRERO</option>
+          <option value="HG">HIDALGO</option>
+          <option value="JC">JALISCO</option>
+          <option value="MC">MEXICO</option>
+          <option value="MN">MICHOACAN DE OCAMPO</option>
+          <option value="MS">MORELOS</option>
+          <option value="NT">NAYARIT</option>
+          <option value="NL">NUEVO LEON</option>
+          <option value="OC">OAXACA</option>
+          <option value="PL">PUEBLA</option>
+          <option value="QT">QUERETARO DE ARTEAGA</option>
+          <option value="QR">QUINTANA ROO</option>
+          <option value="SP">SAN LUIS POTOSI</option>
+          <option value="SL">SINALOA</option>
+          <option value="SR">SONORA</option>
+          <option value="TC">TABASCO</option>
+          <option value="TS">TAMAULIPAS</option>
+          <option value="TL">TLAXCALA</option>
+          <option value="VZ">VERACRUZ</option>
+          <option value="YN">YUCATAN</option>
+          <option value="ZS">ZACATECAS</option>
+          <option value="NE">NACIDO EN EL EXTRANJERO</option>
+        </select>
+      </div>
+
+      <button class="btn btn-block btn-outline-primary mt-4" type="submit">
+        generar
+      </button>
+    </form>
+    <!-- end form -->
+  </div>
+</div>

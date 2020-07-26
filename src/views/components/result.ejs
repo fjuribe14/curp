@@ -1,0 +1,53 @@
+<div class="container" style="height: 80vh;">
+  <div class="row h-100 justify-content-center py-5">
+    <div class="col-md-6 mt-auto mb-5">
+      <h3>Copiar CURP</h3>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="curpInput form-control"
+          aria-describedby="button-addon2"
+          value="<%= newCurp.curp %><%= newCurp.Id %>"
+          readonly
+        />
+        <div class="input-group-append">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+            onclick="copy()"
+          >
+            Copiar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="table-responsive mb-auto">
+      <table class="table table-striped text-uppercase">
+        <thead class="bg-primary text-light">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Nacimiento</th>
+            <th scope="col">Entidad Federativa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><%= newCurp.Id %></th>
+            <td colspan="2">
+              <%= newCurp.fname %> <%= newCurp.mname %> <%= newCurp.surname %>
+              <%= newCurp.ssurname %>
+            </td>
+            <td><%= newCurp.gender %></td>
+            <td><%= newCurp.date %></td>
+            <td><%= newCurp.state %></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

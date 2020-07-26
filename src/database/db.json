@@ -1,0 +1,43 @@
+{
+  "curps": [
+    {
+      "_id": "4e958721-633a-4d50-860e-c6063c34f579",
+      "Id": "00",
+      "fname": "fernando",
+      "mname": "jose",
+      "surname": "uribe",
+      "ssurname": "rivero",
+      "gender": "H",
+      "date": "1996-01-10",
+      "state": "DF",
+      "curp": "UIRF960110HDFRVR",
+      "createdAt": 1595653954513
+    },
+    {
+      "_id": "867d2dd6-ecc3-42f7-abee-fa75306010ee",
+      "Id": "01",
+      "fname": "fernando",
+      "mname": "jose",
+      "surname": "uribe",
+      "ssurname": "rivero",
+      "gender": "H",
+      "date": "1996-01-10",
+      "state": "DF",
+      "curp": "UIRF960110HDFRVR",
+      "createdAt": 1595654003613
+    },
+    {
+      "_id": "744c3a4d-6545-4ef0-bc71-eb58304fd754",
+      "Id": "00",
+      "fname": "fabiola",
+      "mname": "saray",
+      "surname": "martinez",
+      "ssurname": "patiño",
+      "gender": "M",
+      "date": "1991-07-13",
+      "state": "DF",
+      "curp": "MAPF910713MDFRTB",
+      "createdAt": 1595654083025
+    }
+  ]
+}

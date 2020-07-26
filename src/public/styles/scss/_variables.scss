@@ -1,0 +1,19 @@
+$theme-colors: (
+  "primary": #006341,
+  "secondary": #ce1126,
+  "dark": #000000,
+  "light": #ffffff,
+);
+
+$color-primary: #006341;
+$color-secondary: #ce1126;
+$color-dark: #000000;
+$color-light: #ffffff;
+
+$body-bg: $color-light;
+$body-color: $color-dark;
+$font-family-sans-serif: "Montserrat", sans-serif !default;
+
+$enable-rounded: false;
+$enable-responsive-font-sizes: true;
+$enable-pointer-cursor-for-buttons: true;
